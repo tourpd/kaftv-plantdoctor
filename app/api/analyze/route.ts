@@ -1,6 +1,10 @@
 import { NextResponse } from 'next/server';
 
-export async function POST(req:Request){
+export async function POST(req: Request) {
   const body = await req.json();
-  return NextResponse.json({diagnosis:"정상 처리됨", raw:body});
+
+  return NextResponse.json({
+    diagnosis: "정상 처리됨",
+    raw: body,
+  });
 }
