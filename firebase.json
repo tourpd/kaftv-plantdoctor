@@ -1,0 +1,10 @@
+{
+  "apphosting": [
+    {
+      "source": ".",
+      "build": {
+        "command": "npm run build"
+      }
+    }
+  ]
+}
